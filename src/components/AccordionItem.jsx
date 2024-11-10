@@ -17,11 +17,15 @@ const AccordionItem = ({ id, question, answer }) => {
         onClick={onButtonClickHandler}
       >
         <p>{question}</p>
-        {accordionExpanded ? (
-          <img src="./images/icon-minus.svg" alt="" />
-        ) : (
-          <img src="./images/icon-plus.svg" alt="" />
-        )}
+        <img
+          src={
+            accordionExpanded
+              ? "./images/icon-minus.svg"
+              : "./images/icon-plus.svg"
+          }
+          alt=""
+          className="button-image"
+        />
       </button>
 
       <div id={`accordion-answer-${id}`}>
