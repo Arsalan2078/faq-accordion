@@ -2,7 +2,7 @@ import FAQ from "./components/FAQ.tsx";
 
 const App = () => {
   return (
-    <main className="app">
+    <main className="app text-preset--body">
       <div className="container">
         <FAQ />
       </div>
