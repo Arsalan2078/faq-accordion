@@ -1,0 +1,14 @@
+.app {
+  min-height: 100dvh;
+  background-color: var(--bg-color-body);
+
+  background-image: url("/images/background-pattern-mobile.svg");
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: 100%;
+
+  @media screen and (min-width: calc(520 / 16 * 1rem)) {
+    background-image: url("/images/background-pattern-desktop.svg");
+    background-size: calc(1440 / 16 * 1rem);
+  }
+}
