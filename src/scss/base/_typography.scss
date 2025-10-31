@@ -1,0 +1,28 @@
+.text-preset {
+  font-family: var(--ff-work-sans);
+  letter-spacing: 0;
+
+  &--display {
+    @extend .text-preset;
+    font-size: var(--fs-display);
+    font-weight: var(--fw-bold);
+    line-height: normal;
+    color: var(--text-color-display);
+  }
+
+  &--title {
+    @extend .text-preset;
+    font-size: var(--fs-title);
+    font-weight: var(--fw-semibold);
+    line-height: normal;
+    color: var(--text-color-title);
+  }
+
+  &--body {
+    @extend .text-preset;
+    font-size: var(--fs-body);
+    font-weight: var(--fw-regular);
+    line-height: var(--lh-150);
+    color: var(--text-color-body);
+  }
+}
