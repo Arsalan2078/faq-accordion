@@ -30,8 +30,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/Arsalan2078/faq-accordion)
-- Live Site URL: [Add live site URL here](https://jocular-dolphin-9b7d2c.netlify.app/)
+- Solution URL: [https://github.com/Arsalan2078/faq-accordion](https://github.com/Arsalan2078/faq-accordion)
+- Live Site URL: [https://jocular-dolphin-9b7d2c.netlify.app/](https://jocular-dolphin-9b7d2c.netlify.app/)
 
 ## My process
 
@@ -48,7 +48,7 @@ Users should be able to:
 
 ### What I learned
 
-I learned how to access the shadow dom in my browser. The shadow dom contains additional, normally hidden pseudo elements and styles. Using them enabled me to add transition to <details> when opening and closing it.
+I learned how to access the shadow dom in my browser. The shadow dom contains additional, normally hidden pseudo elements and styles. Using them enabled me to add transition to details element when opening and closing it.
 
 ## Author
 
