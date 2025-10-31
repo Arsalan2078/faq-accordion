@@ -27,15 +27,15 @@ const FAQ = () => {
 
   return (
     <div className="faq">
-      <h2 className="faq__heading text-preset--display">
+      <div className="faq__heading">
         <img src={iconStar} alt="" />
-        FAQs
-      </h2>
+        <h2 className="text-preset--display">FAQs</h2>
+      </div>
 
       <ul className="faq__accordion">
         {faqs.map(({ question, answer }, index) => (
           <li key={index}>
-            <details className="faq__item" open={index == 0}>
+            <details className="faq__item" open={index === 0}>
               <summary className="text-preset--title">{question}</summary>
               <p>{answer}</p>
             </details>
