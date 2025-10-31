@@ -6,6 +6,8 @@
   padding: clamp(1.5rem, 0.2941rem + 5.8824cqw, 2.5rem);
 
   background-color: var(--bg-color-faq);
+
+  box-shadow: 0 2rem 3.5rem 0 hsla(281, 100%, 23%, 0.1);
 }
 
 /////
@@ -22,7 +24,7 @@
 
 /////
 .faq__accordion {
-  --spacer: clamp(1.5rem, 0.8971rem + 2.9412cqw, 2rem);
+  --spacer: clamp(1.25rem, 0.949rem + 1.471cqw, 1.5rem);
 
   display: grid;
   row-gap: var(--spacer);

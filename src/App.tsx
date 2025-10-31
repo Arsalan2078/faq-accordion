@@ -1,4 +1,4 @@
-import FAQ from "./components/FAQ.tsx";
+import FAQ from "./components/FAQ";
 
 const App = () => {
   return (
